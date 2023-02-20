@@ -1,0 +1,5 @@
+1 st question 
+Compare two without order  1) let ob1 ={ "name" :"person1","age" :5},  2)let ob2 = {"age" :5 , "name" : "person1"} 
+
+The two objects are not strictly equal, as the order of the key-value pairs matters in JavaScript object comparison. If you compare the two objects using the strict equality operator (===), the result will be false.
+However, if you compare the two objects using the non-strict equality operator (==), the result will be true, as JavaScript performs type coercion and ignores the order of the key-value pairs when comparing objects with the non-strict equality operator.
